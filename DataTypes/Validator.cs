@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Core;
+
 
 namespace DataTypes
 {
     namespace Hard
     {
-        internal class Validator : Problem
+        public class Validator : Problem
         {
             public override string Name => "Hard.Validator";
 

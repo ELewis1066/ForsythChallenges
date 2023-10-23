@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Core;
 
 namespace DataTypes
 {
     namespace Medium
     {
-        internal class BMI : Problem
+        public class BMI : Problem
         {
             public override string Name => "Medium.BMI";
 

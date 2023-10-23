@@ -1,4 +1,5 @@
-﻿using DataTypes.Easy;
+﻿using Core;
+using DataTypes.Easy;
 using DataTypes.Medium;
 using DataTypes.Hard;
 

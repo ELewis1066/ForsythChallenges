@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Metrics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Core;
+
 
 namespace DataTypes
 {
     namespace Medium
     {
-        internal class Speedy : Problem
+        public class Speedy : Problem
         {
             public override string Name => "Medium.SPEEDY";
 
