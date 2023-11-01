@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{68A271F2-DA57-4291-AE67-44B4306E537A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{68A271F2-DA57-4291-AE67-44B4306E537A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{E610AE8B-DF62-4C37-815F-E183238938BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{E610AE8B-DF62-4C37-815F-E183238938BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selection", "Selection\Selection.csproj", "{4F1CDA53-3DEA-486D-81FD-377C26622296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Selection", "Selection\Selection.csproj", "{4F1CDA53-3DEA-486D-81FD-377C26622296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iteration", "Iteration\Iteration.csproj", "{DDFC0B81-A4C8-48B1-9EF3-690E92E8BDF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4F1CDA53-3DEA-486D-81FD-377C26622296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F1CDA53-3DEA-486D-81FD-377C26622296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F1CDA53-3DEA-486D-81FD-377C26622296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFC0B81-A4C8-48B1-9EF3-690E92E8BDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFC0B81-A4C8-48B1-9EF3-690E92E8BDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFC0B81-A4C8-48B1-9EF3-690E92E8BDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFC0B81-A4C8-48B1-9EF3-690E92E8BDF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,10 @@
 ﻿using Core;
-using Selection.Easy;
-using Selection.Medium;
-using Selection.Hard;
 
-namespace Selection
+using Iteration.Easy;
+using Iteration.Medium;
+using Iteration.Hard;
+
+namespace Iteration
 {
     internal class Program
     {
@@ -14,15 +15,15 @@ namespace Selection
             // allows easy run-through of problems.
             List<Problem> problems = new List<Problem>
             {
-                new Bigger() ,
-                new Rainbow() ,
-                new OddAndEven() ,
-                new Grader() ,
-                new Quiz() ,
-                new Sorter() ,
-                new Calculator() ,
-                new CheckSum() ,
-                new Pangram()
+                new Times() , 
+                new Fibber() , 
+                new Password() ,
+                new Guesser() ,
+                new Caeser() ,
+                ///
+                ///
+                ///
+                new Coins()
             };
 
             // Run each problem.
@@ -31,7 +32,6 @@ namespace Selection
                 Console.WriteLine(problem.Name);
                 problem.Execute();
             }
-
         }
     }
 }
